@@ -165,7 +165,7 @@ comment:
 
 
 
-    
+
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 # donates:
@@ -232,33 +232,33 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Hyunsoo Kim
         # Author title
-        author_title: Your title
+        author_title: Team DDev
         # Author's current location
-        location: Your location
+        location: Daejeon
         # URL or path to the avatar image
-        avatar: 
+        avatar: 'https://avatars.githubusercontent.com/u/39149858?v=4'
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
-        follow_link: 'https://github.com/ppoffice'
+        follow_link: 'https://github.com/dblepart99'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
                 icon: fab fa-github
-                url: 'https://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
-            Twitter:
-                icon: fab fa-twitter
-                url: 'https://twitter.com'
-            Dribbble:
-                icon: fab fa-dribbble
-                url: 'https://dribbble.com'
+                url: 'https://github.com/dblepart99'
+            # Facebook:
+            #     icon: fab fa-facebook
+            #     url: 'https://facebook.com'
+            # Twitter:
+            #     icon: fab fa-twitter
+            #     url: 'https://twitter.com'
+            # Dribbble:
+            #     icon: fab fa-dribbble
+            #     url: 'https://dribbble.com'
             RSS:
                 icon: fas fa-rss
                 url: /
@@ -280,8 +280,7 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+            Team DDev: 'https://github.com/Team-DDev'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -295,7 +294,7 @@ widgets:
     # Archives widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: archives
     # Tags widget configurations
     -
