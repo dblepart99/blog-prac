@@ -29,7 +29,7 @@ skip_render: null
 
 new_post_name: ':title.md'
 default_layout: post
-titlecase: false
+titlecase: true
 external_link:
   enable: true
   field: site
@@ -79,3 +79,26 @@ deploy:
   type: git
   repo: https://github.com/dblepart99/dblepart99.github.io
   branch: master
+
+
+sitemap:
+      path: sitemap.xml #블로그 주소/sitemap.xml
+      #여기까지만 쓴다. 아래는 옵션
+      tag: true #Defualt: true
+      category: true #Default: true
+
+
+algolia:
+    applicationID: 6ID16BWM23
+    indexName: "hexo git blog"
+    apiKey: 0b49c4ac03cfaffafcf3a79a50c2791f
+    chunkSize: 5000
+
+algolia_search:
+  enable: true
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We did not find any search results: ${query}"
+    hits_stats: "turn up${hits}Results (time${time} ms）"

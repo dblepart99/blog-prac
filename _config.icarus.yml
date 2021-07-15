@@ -3,7 +3,7 @@ version: 4.0.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: /img/logo.svg
+# logo: /img/logo.svg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
@@ -71,36 +71,39 @@ head:
         # Facebook App ID
         fb_app_id: 
     # Structured data of the page
-    # https://developers.google.com/search/docs/guides/intro-structured-data
-    structured_data:
-        # Page title (optional)
-        # You should leave this blank for most of the time
-        title: 
-        # Page description (optional)
-        # You should leave this blank for most of the time
-        description: 
-        # Page URL (optional)
-        # You should leave this blank for most of the time
-        url: 
-        # Page author (article:author) (optional)
-        # You should leave this blank for most of the time
-        author: 
-        # Page publisher (optional)
-        # You should leave this blank for most of the time
-        publisher: 
-        # Page publisher logo (optional)
-        # You should leave this blank for most of the time
-        publisher_logo: 
-        # Page images (optional)
-        # You should leave this blank for most of the time
-        image: 
-    # Additional HTML meta tags in an array
-    meta:
-        # Meta tag specified in <attribute>=<value> style
-        # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
-        - ''
-    # URL or path to the website's RSS atom.xml
-    rss: 
+    # https://developers.google.com/
+    
+    # /docs/guides/intro-structured-data
+    # structured_data:
+    #     # Page title (optional)
+    #     # You should leave this blank for most of the time
+    #     title: 
+    #     # Page description (optional)
+    #     # You should leave this blank for most of the time
+    #     description: 
+    #     # Page URL (optional)
+    #     # You should leave this blank for most of the time
+    #     url: 
+    #     # Page author (article:author) (optional)
+    #     # You should leave this blank for most of the time
+    #     author: 
+    #     # Page publisher (optional)
+    #     # You should leave this blank for most of the time
+    #     publisher: 
+    #     # Page publisher logo (optional)
+    #     # You should leave this blank for most of the time
+    #     publisher_logo: 
+    #     # Page images (optional)
+    #     # You should leave this blank for most of the time
+    #     image: 
+    # # Additional HTML meta tags in an array
+    # meta:
+    #     # Meta tag specified in <attribute>=<value> style
+    #     # E.g., name=theme-color;content=#123456 => <meta name="theme-color" content="#123456">
+    #     - ''
+    # # URL or path to the website's RSS atom.xml
+    # rss: 
+
 # Page top navigation bar configurations
 navbar:
     # Navigation menu items
@@ -110,11 +113,12 @@ navbar:
         Categories: /categories
         Tags: /tags
         About: /about
+
     # Links to be shown on the right of the navigation bar
-    links:
-        Download on GitHub:
-            icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+    # links:
+    #     Download on GitHub:
+    #         icon: fab fa-github
+    #         url: 'https://github.com/ppoffice/hexo-theme-icarus'
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -138,9 +142,9 @@ article:
         # Show copy code button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
-        fold: unfolded
+        fold: folded
     # Whether to show estimated article reading time
-    readtime: true
+    readtime: false
     # Article licensing block
     licenses:
         Creative Commons:
@@ -155,7 +159,9 @@ article:
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
-    type: insight
+    type: algolia
+
+
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
@@ -410,3 +416,13 @@ sitemap:
       #여기까지만 쓴다. 아래는 옵션
       tag: true #Defualt: true
       category: true #Default: true
+
+
+algolia_search:
+  enable: true
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We did not find any search results: ${query}"
+    hits_stats: "turn up${hits}Results (time${time} ms）"

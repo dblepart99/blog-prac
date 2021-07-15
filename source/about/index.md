@@ -1,8 +1,7 @@
 ---
-title: "about"
-layout: "about"
 comment: "false"
+type: about
 ---
 
 
-## WTF
+## This is a tech blog
