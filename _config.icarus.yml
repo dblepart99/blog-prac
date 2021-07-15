@@ -161,7 +161,7 @@ search:
 comment:
     type: disqus
     # Disqus shortname
-    shortname: ''
+    shortname: 'dblepart99'
 
 
 
@@ -299,7 +299,7 @@ widgets:
     # Tags widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
+        position: right
         type: tags
     # Google FeedBurner email subscription widget configurations
     -
@@ -365,7 +365,7 @@ plugins:
     # https://analytics.google.com
     google_analytics:
         # Google Analytics tracking ID
-        tracking_id: 
+        tracking_id: G-5C0QKYCSBG
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
