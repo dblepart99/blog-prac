@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <url>
-        <loc>https://dblepart99.github.io/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1</priority>
-    </url>
-
 
     <url>
-        <loc>https://dblepart99.github.io/categories/%25EB%25AA%25A8%25EA%25B0%2581%25EC%25BD%2594/</loc>
-        <lastmod>2021-07-15T10:32:02.326Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://dblepart99.github.io/categories/coding/</loc>
-        <lastmod>2021-07-15T01:03:47.213Z</lastmod>
+        <loc>https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94-%EB%AA%A8%EC%97%AC%EC%84%9C-%EA%B0%81%EC%9E%90-%EC%BD%94%EB%94%A9/</loc>
+        <lastmod>2021-07-15T10:34:22.995Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

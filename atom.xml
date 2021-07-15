@@ -6,7 +6,7 @@
   <link href="https://dblepart99.github.io/atom.xml" rel="self"/>
   
   <link href="https://dblepart99.github.io/"/>
-  <updated>2021-07-15T06:55:10.673Z</updated>
+  <updated>2021-07-15T10:33:00.379Z</updated>
   <id>https://dblepart99.github.io/</id>
   
   <author>
@@ -17,11 +17,46 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>모각코 0회차</title>
+    <link href="https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-0%ED%9A%8C%EC%B0%A8/"/>
+    <id>https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-0%ED%9A%8C%EC%B0%A8/</id>
+    <published>2021-07-15T10:33:00.000Z</published>
+    <updated>2021-07-15T10:33:00.379Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>모각코 1회차</title>
+    <link href="https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/"/>
+    <id>https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/</id>
+    <published>2021-07-15T10:32:13.000Z</published>
+    <updated>2021-07-15T10:34:22.995Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="모각코-1회차"><a href="#모각코-1회차" class="headerlink" title="모각코 1회차"></a>모각코 1회차</h1><h2 id="오늘의-시작-계획"><a href="#오늘의-시작-계획" class="headerlink" title="오늘의 시작 계획"></a>오늘의 시작 계획</h2><blockquote><p>html과 js기본 개념 학습 </p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;모각코-1회차&quot;&gt;&lt;a href=&quot;#모각코-1회차&quot; class=&quot;headerlink&quot; title=&quot;모각코 1회차&quot;&gt;&lt;/a&gt;모각코 1회차&lt;/h1&gt;&lt;h2 id=&quot;오늘의-시작-계획&quot;&gt;&lt;a href=&quot;#오늘의-시작-계획&quot; class=&quot;header</summary>
+      
+    
+    
+    
+    
+    <category term="모각코, 모여서 각자 코딩" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94-%EB%AA%A8%EC%97%AC%EC%84%9C-%EA%B0%81%EC%9E%90-%EC%BD%94%EB%94%A9/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Page</title>
     <link href="https://dblepart99.github.io/2021/07/15/page/"/>
     <id>https://dblepart99.github.io/2021/07/15/page/</id>
     <published>2021-07-15T06:53:33.000Z</published>
-    <updated>2021-07-15T06:55:10.673Z</updated>
+    <updated>2021-07-15T10:32:02.326Z</updated>
     
     <content type="html"><![CDATA[<h2 id="is-this-working"><a href="#is-this-working" class="headerlink" title="is this working"></a>is this working</h2>]]></content>
     
@@ -33,8 +68,10 @@
     
     
     
-    <category term="algorithm" scheme="https://dblepart99.github.io/categories/algorithm/"/>
+    <category term="모각코" scheme="https://dblepart99.github.io/categories/%EB%AA%A8%EA%B0%81%EC%BD%94/"/>
     
+    
+    <category term="모각코, 모여서 각자 코딩" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94-%EB%AA%A8%EC%97%AC%EC%84%9C-%EA%B0%81%EC%9E%90-%EC%BD%94%EB%94%A9/"/>
     
   </entry>
   
