@@ -6,7 +6,7 @@
   <link href="https://dblepart99.github.io/atom.xml" rel="self"/>
   
   <link href="https://dblepart99.github.io/"/>
-  <updated>2021-07-15T06:53:44.897Z</updated>
+  <updated>2021-07-15T06:55:10.673Z</updated>
   <id>https://dblepart99.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://dblepart99.github.io/2021/07/15/page/"/>
     <id>https://dblepart99.github.io/2021/07/15/page/</id>
     <published>2021-07-15T06:53:33.000Z</published>
-    <updated>2021-07-15T06:53:44.897Z</updated>
+    <updated>2021-07-15T06:55:10.673Z</updated>
     
     <content type="html"><![CDATA[<h2 id="is-this-working"><a href="#is-this-working" class="headerlink" title="is this working"></a>is this working</h2>]]></content>
     
@@ -32,6 +32,8 @@
       
     
     
+    
+    <category term="algorithm" scheme="https://dblepart99.github.io/categories/algorithm/"/>
     
     
   </entry>
