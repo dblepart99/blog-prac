@@ -18,7 +18,7 @@ function loadAlgolia(config, translation) {
       placeholder: translation.hint,
       showReset: false,
       showSubmit: false,
-      showLoadingIndicator: true,
+      showLoadingIndicator: false,
       cssClasses: {
         root: 'searchbox-input-container',
         form: 'searchbox-input-container',
@@ -60,7 +60,7 @@ function loadAlgolia(config, translation) {
                         <a class="searchbox-result-item" href="${hit.permalink}">
                             <span class="searchbox-result-content">
                                 <span class="searchbox-result-title">${title}</span>
-                                <span class="searchbox-result-preview">${excerpt}</span
+                                <span class="searchbox-result-preview">${excerpt}</span>
                             </span>
                         </a>
                     </section>`;
