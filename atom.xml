@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>생존형 코더</title>
+  
+  <subtitle>오늘도 살기 위해 코딩한다</subtitle>
+  <link href="https://dblepart99.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://dblepart99.github.io/"/>
+  <updated>2021-07-15T01:03:47.213Z</updated>
+  <id>https://dblepart99.github.io/</id>
+  
+  <author>
+    <name>Hyunsoo Kim</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>new post</title>
+    <link href="https://dblepart99.github.io/2021/07/15/new-post/"/>
+    <id>https://dblepart99.github.io/2021/07/15/new-post/</id>
+    <published>2021-07-14T15:30:02.000Z</published>
+    <updated>2021-07-15T01:03:47.213Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="this-is-a-new-post"><a href="#this-is-a-new-post" class="headerlink" title="this is a new post"></a>this is a new post</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;this-is-a-new-post&quot;&gt;&lt;a href=&quot;#this-is-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;this is a new post&quot;&gt;&lt;/a&gt;this is a new post&lt;/h3&gt;</summary>
+      
+    
+    
+    
+    <category term="coding" scheme="https://dblepart99.github.io/categories/coding/"/>
+    
+    
+  </entry>
+  
+</feed>
