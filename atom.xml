@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>생존형 코더</title>
+  <title>Binary Kim</title>
   
   <subtitle>오늘도 살기 위해 코딩한다</subtitle>
   <link href="https://dblepart99.github.io/atom.xml" rel="self"/>
   
   <link href="https://dblepart99.github.io/"/>
-  <updated>2021-07-17T16:14:46.722Z</updated>
+  <updated>2021-07-17T16:44:00.143Z</updated>
   <id>https://dblepart99.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>백준 10807</title>
+    <link href="https://dblepart99.github.io/2021/07/18/%EB%B0%B1%EC%A4%80-10807/"/>
+    <id>https://dblepart99.github.io/2021/07/18/%EB%B0%B1%EC%A4%80-10807/</id>
+    <published>2021-07-17T16:40:24.000Z</published>
+    <updated>2021-07-17T16:44:00.143Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.acmicpc.net/problem/10807">백준 10807 개수 세기</a></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">201</span>];</span><br><span class="line">    <span class="built_in">fill</span>(arr, arr+<span class="number">201</span>, <span class="number">0</span>);</span><br><span class="line">    <span class="keyword">int</span> N, tmp;</span><br><span class="line">    cin &gt;&gt; N;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N; i++)&#123;</span><br><span class="line">        cin &gt;&gt; tmp;</span><br><span class="line">        arr[tmp+<span class="number">100</span>]++;</span><br><span class="line">    &#125;</span><br><span class="line">    cin &gt;&gt; tmp;</span><br><span class="line">    cout &lt;&lt; arr[tmp+<span class="number">100</span>];</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>입력받을 수 있는 숫자의 범위는 -100에서 100까지 총 201개입니다. 길이가 201인 int형 배열을 선언합니다.<br>fill함수를 이용하여 배열 전체를 0으로 초기화해줍니다. 0은 -100에서 100까지의 수 중에서 101번째의 숫자이므로, 입력받은 수 + 100 의 index의 값을 +1을 해주며 입력받은 숫자의 갯수를 세줍니다.<br>마지막으로 입력받은 숫자의 횟수를 출력합니다. </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/problem/10807&quot;&gt;백준 10807 개수 세기&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="알고리즘" scheme="https://dblepart99.github.io/categories/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
+    
+    
+    <category term="백준, 알고리즘, &#39;백준 10807&#39;" scheme="https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%B0%B1%EC%A4%80-10807/"/>
+    
+  </entry>
   
   <entry>
     <title>백준 10808</title>
@@ -96,16 +121,16 @@
     <link href="https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/"/>
     <id>https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/</id>
     <published>2021-07-15T10:32:13.000Z</published>
-    <updated>2021-07-17T16:07:11.447Z</updated>
+    <updated>2021-07-20T04:29:52.038Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="오늘의-시작-계획"><a href="#오늘의-시작-계획" class="headerlink" title="오늘의 시작 계획"></a>오늘의 시작 계획</h2><blockquote><p>html과 js기본 개념 학습 </p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h2 id="모각코-1회차-계획"><a href="#모각코-1회차-계획" class="headerlink" title="모각코 1회차 계획"></a>모각코 1회차 계획</h2><blockquote><p>html과 js기본 개념 학습 </p></blockquote><h2 id="모각코-1회차-결과"><a href="#모각코-1회차-결과" class="headerlink" title="모각코 1회차 결과"></a>모각코 1회차 결과</h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;오늘의-시작-계획&quot;&gt;&lt;a href=&quot;#오늘의-시작-계획&quot; class=&quot;headerlink&quot; title=&quot;오늘의 시작 계획&quot;&gt;&lt;/a&gt;오늘의 시작 계획&lt;/h2&gt;&lt;blockquote&gt;
+    <summary type="html">&lt;h2 id=&quot;모각코-1회차-계획&quot;&gt;&lt;a href=&quot;#모각코-1회차-계획&quot; class=&quot;headerlink&quot; title=&quot;모각코 1회차 계획&quot;&gt;&lt;/a&gt;모각코 1회차 계획&lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;html과 js기본 개념 학습 &lt;/p&gt;
-&lt;/block</summary>
+&lt;/b</summary>
       
     
     
