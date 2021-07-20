@@ -1,4 +1,4 @@
-title: 생존형 코더
+title: 'Binary Kim'
 subtitle: '오늘도 살기 위해 코딩한다'
 description: ''
 keywords: 알고리즘, 프론트엔드, 백엔드, 코딩
@@ -36,7 +36,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: true
+post_asset_folder: false
 relative_link: false
 future: true
 highlight:
@@ -62,7 +62,7 @@ index_generator:
 
 default_category: uncategorized
 category_map: true
-tag_map: null
+tag_map: true
 
 
 meta_generator: true
@@ -89,7 +89,7 @@ sitemap:
 
 
 algolia:
-    applicationID: 6ID16BWM23
+    applicationID: "6ID16BWM23"
     indexName: "hexo git blog"
-    apiKey: 0b49c4ac03cfaffafcf3a79a50c2791f
+    apiKey: "0b49c4ac03cfaffafcf3a79a50c2791f"
     chunkSize: 5000

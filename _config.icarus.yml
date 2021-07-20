@@ -426,3 +426,10 @@ algolia_search:
     input_placeholder: Search for Posts
     hits_empty: "We did not find any search results: ${query}"
     hits_stats: "turn up${hits}Results (time${time} ms）"
+
+
+algolia:
+    applicationID: "6ID16BWM23"
+    indexName: "hexo git blog"
+    apiKey: "0b49c4ac03cfaffafcf3a79a50c2791f"
+    chunkSize: 5000
