@@ -6,7 +6,7 @@
   <link href="https://dblepart99.github.io/atom.xml" rel="self"/>
   
   <link href="https://dblepart99.github.io/"/>
-  <updated>2021-07-17T16:44:00.143Z</updated>
+  <updated>2021-07-20T15:57:34.200Z</updated>
   <id>https://dblepart99.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Xcode빌드시 Unable to Login With Account 오류 해결</title>
+    <link href="https://dblepart99.github.io/2021/07/21/xcode-%EC%98%A4%EB%A5%98/"/>
+    <id>https://dblepart99.github.io/2021/07/21/xcode-%EC%98%A4%EB%A5%98/</id>
+    <published>2021-07-20T15:54:57.000Z</published>
+    <updated>2021-07-20T15:57:34.200Z</updated>
+    
+    <content type="html"><![CDATA[<p>xcode에서 갑자기 빌드가 되지 않아 매우 당황스러웠다..<br>아래 과정을 따라하면 해결할 수 있다.</p><ol><li>Xcode -&gt; Preferences</li><li>Accounts -&gt; 계정 재로그인</li></ol><p><a href="https://stackoverflow.com/questions/41515021/xcode-8-signing-errors-cant-login-with-account-and-no-provisioning-profile">참고자료</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;xcode에서 갑자기 빌드가 되지 않아 매우 당황스러웠다..&lt;br&gt;아래 과정을 따라하면 해결할 수 있다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Xcode -&amp;gt; Preferences&lt;/li&gt;
+&lt;li&gt;Accounts -&amp;gt; 계정 재로그인&lt;/li&gt;
+&lt;/ol</summary>
+      
+    
+    
+    
+    
+    <category term="xcode, &#39;xcode 오류&#39;" scheme="https://dblepart99.github.io/tags/xcode-xcode-%EC%98%A4%EB%A5%98/"/>
+    
+  </entry>
   
   <entry>
     <title>백준 10807</title>
