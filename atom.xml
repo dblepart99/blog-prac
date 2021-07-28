@@ -6,7 +6,7 @@
   <link href="https://dblepart99.github.io/atom.xml" rel="self"/>
   
   <link href="https://dblepart99.github.io/"/>
-  <updated>2021-07-28T02:36:07.660Z</updated>
+  <updated>2021-07-28T02:43:53.952Z</updated>
   <id>https://dblepart99.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://dblepart99.github.io/2021/07/28/PRwithOctokit/"/>
     <id>https://dblepart99.github.io/2021/07/28/PRwithOctokit/</id>
     <published>2021-07-28T02:10:49.000Z</published>
-    <updated>2021-07-28T02:36:07.660Z</updated>
+    <updated>2021-07-28T02:43:53.952Z</updated>
     
     <content type="html"><![CDATA[<h2 id="이-글을-읽기-전에"><a href="#이-글을-읽기-전에" class="headerlink" title="이 글을 읽기 전에.."></a>이 글을 읽기 전에..</h2><p>Octokit 라이브러리와 Pull Request가 무엇인지 궁금할 경우<br><a href="https://dblepart99.github.io/2021/07/28/What-is-Pull-Request/">지난 포스트</a>를 확인해보시면 됩니다.</p><br/><h2 id="Octokit-Library로-Pull-Request생성하기"><a href="#Octokit-Library로-Pull-Request생성하기" class="headerlink" title="Octokit Library로 Pull Request생성하기"></a>Octokit Library로 Pull Request생성하기</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; Octokit &#125; = <span class="built_in">require</span>(<span class="string">&quot;@octokit/core&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> octokit = <span class="keyword">new</span> Octokit(&#123;</span><br><span class="line">    <span class="attr">auth</span>: token <span class="comment">// B의 토큰</span></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"> <span class="keyword">async</span> <span class="function"><span class="keyword">function</span> <span class="title">makePRfromAtoB</span>(<span class="params"></span>)</span>&#123;       <span class="comment">// B의 레포를 fork한 후 A가 수정하여 PR을 날리는 경우</span></span><br><span class="line">     <span class="keyword">await</span> octokit.request(<span class="string">&quot;POST /repos/&#123;owner&#125;/&#123;repo&#125;/pulls&quot;</span>, &#123;</span><br><span class="line">         <span class="attr">owner</span>: <span class="string">&quot;binaryKim99&quot;</span>,         <span class="comment">// 풀리퀘 받을 학생 이름 -&gt; B</span></span><br><span class="line">         <span class="attr">title</span>: <span class="string">&quot;PR title&quot;</span>,            <span class="comment">// 풀리퀘 제목 </span></span><br><span class="line">         <span class="attr">repo</span>: <span class="string">&quot;binaryKim99Resume&quot;</span>,    <span class="comment">// 풀리퀘 날릴 레포 이름</span></span><br><span class="line">         <span class="attr">body</span>: <span class="string">&quot;pull request body&quot;</span>,    <span class="comment">// 풀리퀘 관련 내용 </span></span><br><span class="line">         <span class="attr">head</span>: <span class="string">&quot;CNUCSE-RESUME:main&quot;</span>,   <span class="comment">//A의 이름:branch 이름</span></span><br><span class="line">         <span class="attr">base</span>: <span class="string">&quot;main&quot;</span>,                 <span class="comment">//B의 branch 이름</span></span><br><span class="line">     &#125;);</span><br><span class="line">     </span><br><span class="line"> &#125;</span><br><span class="line"> </span><br><span class="line"> makePRfromAtoB();</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -36,7 +36,17 @@
     <category term="Github" scheme="https://dblepart99.github.io/categories/Github/"/>
     
     
-    <category term="Github, PR, &#39;Pull request&#39;, github api, Octokit, &#39;Octokit Library&#39;" scheme="https://dblepart99.github.io/tags/Github-PR-Pull-request-github-api-Octokit-Octokit-Library/"/>
+    <category term="Github" scheme="https://dblepart99.github.io/tags/Github/"/>
+    
+    <category term="PR" scheme="https://dblepart99.github.io/tags/PR/"/>
+    
+    <category term="Pull request" scheme="https://dblepart99.github.io/tags/Pull-request/"/>
+    
+    <category term="github api" scheme="https://dblepart99.github.io/tags/github-api/"/>
+    
+    <category term="Octokit" scheme="https://dblepart99.github.io/tags/Octokit/"/>
+    
+    <category term="Octokit Library" scheme="https://dblepart99.github.io/tags/Octokit-Library/"/>
     
   </entry>
   
@@ -45,7 +55,7 @@
     <link href="https://dblepart99.github.io/2021/07/28/What-is-Pull-Request/"/>
     <id>https://dblepart99.github.io/2021/07/28/What-is-Pull-Request/</id>
     <published>2021-07-28T02:03:11.000Z</published>
-    <updated>2021-07-28T02:36:11.948Z</updated>
+    <updated>2021-07-28T02:44:42.521Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Pull-Request란"><a href="#Pull-Request란" class="headerlink" title="Pull Request란?"></a>Pull Request란?</h2><p>Github는 오픈소스 커뮤니티로 다른 개발자들과 코드를 공유하고, 협업할 수 있는 곳입니다. 이 중에서 Pull Reqeust라는 기능이 있습니다. Pull Request를 한국어로 직역해보겠습니다. ‘당기다 요청’이 됩니다.<br><br/><br>다른 개발자의 코드를 fork햐여 개발한 후, 코드를 수정한 후 본인이 수정한 코드가 그 개발자의 repo에 반영되기를 바랄 경우 보통 ‘PR을 날린다’라는 표현을 사용하게 됩니다. </p><h2 id="Octokit-Library란"><a href="#Octokit-Library란" class="headerlink" title="Octokit Library란?"></a>Octokit Library란?</h2><p><a href="https://github.com/octokit/octokit.js">Octokit Library</a>는 github api를 쉽게 사용할 수 있도록 도와주는 라이브러리입니다. </p>]]></content>
     
@@ -60,7 +70,17 @@
     <category term="Github" scheme="https://dblepart99.github.io/categories/Github/"/>
     
     
-    <category term="Github, PR, &#39;Pull request&#39;, github api, Octokit, &#39;Octokit Library&#39;" scheme="https://dblepart99.github.io/tags/Github-PR-Pull-request-github-api-Octokit-Octokit-Library/"/>
+    <category term="Github" scheme="https://dblepart99.github.io/tags/Github/"/>
+    
+    <category term="PR" scheme="https://dblepart99.github.io/tags/PR/"/>
+    
+    <category term="Pull request" scheme="https://dblepart99.github.io/tags/Pull-request/"/>
+    
+    <category term="github api" scheme="https://dblepart99.github.io/tags/github-api/"/>
+    
+    <category term="Octokit" scheme="https://dblepart99.github.io/tags/Octokit/"/>
+    
+    <category term="Octokit Library" scheme="https://dblepart99.github.io/tags/Octokit-Library/"/>
     
   </entry>
   
@@ -82,7 +102,7 @@
     <link href="https://dblepart99.github.io/2021/07/22/%EB%AA%A8%EA%B0%81%EC%BD%94-3%ED%9A%8C%EC%B0%A8/"/>
     <id>https://dblepart99.github.io/2021/07/22/%EB%AA%A8%EA%B0%81%EC%BD%94-3%ED%9A%8C%EC%B0%A8/</id>
     <published>2021-07-22T10:58:23.000Z</published>
-    <updated>2021-07-27T07:21:04.885Z</updated>
+    <updated>2021-07-28T02:44:01.477Z</updated>
     
     <content type="html"><![CDATA[<h2 id="모각코-3회차-계획"><a href="#모각코-3회차-계획" class="headerlink" title="모각코 3회차 계획"></a>모각코 3회차 계획</h2><p>SQL injection이란 무엇인가?<br><a href="https://webhacking.kr/old">SQL injection 실습 문제 old 18번</a></p><h2 id="모각코-3회차-결과"><a href="#모각코-3회차-결과" class="headerlink" title="모각코 3회차 결과"></a>모각코 3회차 결과</h2><h3 id="SQL-injection이란"><a href="#SQL-injection이란" class="headerlink" title="SQL injection이란?"></a>SQL injection이란?</h3>]]></content>
     
@@ -97,7 +117,9 @@
     <category term="모각코" scheme="https://dblepart99.github.io/categories/%EB%AA%A8%EA%B0%81%EC%BD%94/"/>
     
     
-    <category term="모각코,모여서 각자 코딩" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94-%EB%AA%A8%EC%97%AC%EC%84%9C-%EA%B0%81%EC%9E%90-%EC%BD%94%EB%94%A9/"/>
+    <category term="모각코" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94/"/>
+    
+    <category term="모여서 각자 코딩" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EC%97%AC%EC%84%9C-%EA%B0%81%EC%9E%90-%EC%BD%94%EB%94%A9/"/>
     
   </entry>
   
@@ -106,7 +128,7 @@
     <link href="https://dblepart99.github.io/2021/07/21/%EB%B0%B1%EC%A4%80-1475/"/>
     <id>https://dblepart99.github.io/2021/07/21/%EB%B0%B1%EC%A4%80-1475/</id>
     <published>2021-07-20T16:19:01.000Z</published>
-    <updated>2021-07-20T16:23:08.903Z</updated>
+    <updated>2021-07-28T02:44:12.376Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://www.acmicpc.net/problem/1475">백준 1475 방 번호</a></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">10</span>];</span><br><span class="line">    <span class="built_in">fill</span>(arr, arr+<span class="number">10</span>, <span class="number">0</span>);</span><br><span class="line">    <span class="keyword">int</span> N;</span><br><span class="line">    cin &gt;&gt; N;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span>(N==<span class="number">0</span>)&#123;</span><br><span class="line">        cout &lt;&lt; <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span>(N&gt;<span class="number">0</span>)&#123;</span><br><span class="line">        <span class="keyword">int</span> tmp = N%<span class="number">10</span>;</span><br><span class="line">        N/=<span class="number">10</span>;</span><br><span class="line">        arr[tmp]++;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    arr[<span class="number">6</span>] += arr[<span class="number">9</span>];</span><br><span class="line">    <span class="keyword">if</span>(arr[<span class="number">6</span>]%<span class="number">2</span>!=<span class="number">0</span>)&#123;</span><br><span class="line">        arr[<span class="number">6</span>]=arr[<span class="number">6</span>]/<span class="number">2</span>+<span class="number">1</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        arr[<span class="number">6</span>]/=<span class="number">2</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    arr[<span class="number">9</span>] = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> max = *<span class="built_in">max_element</span>(arr, arr+<span class="number">10</span>);</span><br><span class="line">    cout &lt;&lt; max;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>문제에 의하면 6과 9는 뒤집어서 이용할 수 있습니다. 그래서 모든 6과 9의 갯수를 더한 후, 2로 나누어 세트의 개수를 구할 수 있습니다. ex) 6669 =&gt; 6을 2장, 9를 2장으로 만들 수 있음.<br>6과 9의 갯수를 더한 후, 2로 나누어줍니다. 만약 나머지가 있다면 한 세트를 더 뜯어야 한다는 뜻이므로 1을 더해줍니다. </p><p><b>주의 사항</b></p><p>0번 부터 9번까지의 숫자들이므로, 0 한 장만 입력받는 경우도 고려를 해야합니다. </p>]]></content>
     
@@ -122,7 +144,11 @@
     <category term="알고리즘" scheme="https://dblepart99.github.io/categories/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
     
     
-    <category term="백준, 알고리즘, &#39;백준 1475&#39;" scheme="https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%B0%B1%EC%A4%80-1475/"/>
+    <category term="백준" scheme="https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80/"/>
+    
+    <category term="알고리즘" scheme="https://dblepart99.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
+    
+    <category term="백준 1475" scheme="https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80-1475/"/>
     
   </entry>
   
@@ -257,7 +283,7 @@
     <link href="https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/"/>
     <id>https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/</id>
     <published>2021-07-15T10:32:13.000Z</published>
-    <updated>2021-07-20T04:29:52.038Z</updated>
+    <updated>2021-07-28T02:44:21.602Z</updated>
     
     <content type="html"><![CDATA[<h2 id="모각코-1회차-계획"><a href="#모각코-1회차-계획" class="headerlink" title="모각코 1회차 계획"></a>모각코 1회차 계획</h2><blockquote><p>html과 js기본 개념 학습 </p></blockquote><h2 id="모각코-1회차-결과"><a href="#모각코-1회차-결과" class="headerlink" title="모각코 1회차 결과"></a>모각코 1회차 결과</h2>]]></content>
     
@@ -274,7 +300,9 @@
     <category term="모각코" scheme="https://dblepart99.github.io/categories/%EB%AA%A8%EA%B0%81%EC%BD%94/"/>
     
     
-    <category term="모각코, 모여서 각자 코딩" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94-%EB%AA%A8%EC%97%AC%EC%84%9C-%EA%B0%81%EC%9E%90-%EC%BD%94%EB%94%A9/"/>
+    <category term="모각코" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94/"/>
+    
+    <category term="모여서 각자 코딩" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EC%97%AC%EC%84%9C-%EA%B0%81%EC%9E%90-%EC%BD%94%EB%94%A9/"/>
     
   </entry>
   
