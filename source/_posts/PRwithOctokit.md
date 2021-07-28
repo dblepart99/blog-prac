@@ -2,7 +2,7 @@
 title: Making Pull Request with Octokit Library
 date: 2021-07-28 11:10:49
 categories: Github
-tags: Github, PR, 'Pull request', github api
+tags: Github, PR, 'Pull request', github api, Octokit, 'Octokit Library'
 ---
 
 

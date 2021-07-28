@@ -1,8 +1,8 @@
 ---
 title: What is Pull Request?
-date: 2021-07-28 11:14:11
+date: 2021-07-28 11:03:11
 categories: Github
-tags:
+tags: Github, PR, 'Pull request', github api, Octokit, 'Octokit Library'
 ---
 
 
