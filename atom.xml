@@ -6,7 +6,7 @@
   <link href="https://dblepart99.github.io/atom.xml" rel="self"/>
   
   <link href="https://dblepart99.github.io/"/>
-  <updated>2021-07-28T02:22:47.928Z</updated>
+  <updated>2021-07-28T02:36:07.660Z</updated>
   <id>https://dblepart99.github.io/</id>
   
   <author>
@@ -17,33 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>What Is Pull Request?</title>
-    <link href="https://dblepart99.github.io/2021/07/28/What-is-Pull-Request/"/>
-    <id>https://dblepart99.github.io/2021/07/28/What-is-Pull-Request/</id>
-    <published>2021-07-28T02:14:11.000Z</published>
-    <updated>2021-07-28T02:22:47.928Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Pull-Request란"><a href="#Pull-Request란" class="headerlink" title="Pull Request란?"></a>Pull Request란?</h2><p>Github는 오픈소스 커뮤니티로 다른 개발자들과 코드를 공유하고, 협업할 수 있는 곳입니다. 이 중에서 Pull Reqeust라는 기능이 있습니다. Pull Request를 한국어로 직역해보겠습니다. ‘당기다 요청’이 됩니다.<br><br/><br>다른 개발자의 코드를 fork햐여 개발한 후, 코드를 수정한 후 본인이 수정한 코드가 그 개발자의 repo에 반영되기를 바랄 경우 보통 ‘PR을 날린다’라는 표현을 사용하게 됩니다. </p><h2 id="Octokit-Library란"><a href="#Octokit-Library란" class="headerlink" title="Octokit Library란?"></a>Octokit Library란?</h2><p><a href="https://github.com/octokit/octokit.js">Octokit Library</a>는 github api를 쉽게 사용할 수 있도록 도와주는 라이브러리입니다. </p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;Pull-Request란&quot;&gt;&lt;a href=&quot;#Pull-Request란&quot; class=&quot;headerlink&quot; title=&quot;Pull Request란?&quot;&gt;&lt;/a&gt;Pull Request란?&lt;/h2&gt;&lt;p&gt;Github는 오픈소스 커뮤니티로 다른 개발</summary>
-      
-    
-    
-    
-    <category term="Github" scheme="https://dblepart99.github.io/categories/Github/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Making Pull Request With Octokit Library</title>
     <link href="https://dblepart99.github.io/2021/07/28/PRwithOctokit/"/>
     <id>https://dblepart99.github.io/2021/07/28/PRwithOctokit/</id>
     <published>2021-07-28T02:10:49.000Z</published>
-    <updated>2021-07-28T02:22:03.762Z</updated>
+    <updated>2021-07-28T02:36:07.660Z</updated>
     
     <content type="html"><![CDATA[<h2 id="이-글을-읽기-전에"><a href="#이-글을-읽기-전에" class="headerlink" title="이 글을 읽기 전에.."></a>이 글을 읽기 전에..</h2><p>Octokit 라이브러리와 Pull Request가 무엇인지 궁금할 경우<br><a href="https://dblepart99.github.io/2021/07/28/What-is-Pull-Request/">지난 포스트</a>를 확인해보시면 됩니다.</p><br/><h2 id="Octokit-Library로-Pull-Request생성하기"><a href="#Octokit-Library로-Pull-Request생성하기" class="headerlink" title="Octokit Library로 Pull Request생성하기"></a>Octokit Library로 Pull Request생성하기</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; Octokit &#125; = <span class="built_in">require</span>(<span class="string">&quot;@octokit/core&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> octokit = <span class="keyword">new</span> Octokit(&#123;</span><br><span class="line">    <span class="attr">auth</span>: token <span class="comment">// B의 토큰</span></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"> <span class="keyword">async</span> <span class="function"><span class="keyword">function</span> <span class="title">makePRfromAtoB</span>(<span class="params"></span>)</span>&#123;       <span class="comment">// B의 레포를 fork한 후 A가 수정하여 PR을 날리는 경우</span></span><br><span class="line">     <span class="keyword">await</span> octokit.request(<span class="string">&quot;POST /repos/&#123;owner&#125;/&#123;repo&#125;/pulls&quot;</span>, &#123;</span><br><span class="line">         <span class="attr">owner</span>: <span class="string">&quot;binaryKim99&quot;</span>,         <span class="comment">// 풀리퀘 받을 학생 이름 -&gt; B</span></span><br><span class="line">         <span class="attr">title</span>: <span class="string">&quot;PR title&quot;</span>,            <span class="comment">// 풀리퀘 제목 </span></span><br><span class="line">         <span class="attr">repo</span>: <span class="string">&quot;binaryKim99Resume&quot;</span>,    <span class="comment">// 풀리퀘 날릴 레포 이름</span></span><br><span class="line">         <span class="attr">body</span>: <span class="string">&quot;pull request body&quot;</span>,    <span class="comment">// 풀리퀘 관련 내용 </span></span><br><span class="line">         <span class="attr">head</span>: <span class="string">&quot;CNUCSE-RESUME:main&quot;</span>,   <span class="comment">//A의 이름:branch 이름</span></span><br><span class="line">         <span class="attr">base</span>: <span class="string">&quot;main&quot;</span>,                 <span class="comment">//B의 branch 이름</span></span><br><span class="line">     &#125;);</span><br><span class="line">     </span><br><span class="line"> &#125;</span><br><span class="line"> </span><br><span class="line"> makePRfromAtoB();</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -58,7 +36,31 @@
     <category term="Github" scheme="https://dblepart99.github.io/categories/Github/"/>
     
     
-    <category term="Github, PR, &#39;Pull request&#39;, github api" scheme="https://dblepart99.github.io/tags/Github-PR-Pull-request-github-api/"/>
+    <category term="Github, PR, &#39;Pull request&#39;, github api, Octokit, &#39;Octokit Library&#39;" scheme="https://dblepart99.github.io/tags/Github-PR-Pull-request-github-api-Octokit-Octokit-Library/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>What Is Pull Request?</title>
+    <link href="https://dblepart99.github.io/2021/07/28/What-is-Pull-Request/"/>
+    <id>https://dblepart99.github.io/2021/07/28/What-is-Pull-Request/</id>
+    <published>2021-07-28T02:03:11.000Z</published>
+    <updated>2021-07-28T02:36:11.948Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Pull-Request란"><a href="#Pull-Request란" class="headerlink" title="Pull Request란?"></a>Pull Request란?</h2><p>Github는 오픈소스 커뮤니티로 다른 개발자들과 코드를 공유하고, 협업할 수 있는 곳입니다. 이 중에서 Pull Reqeust라는 기능이 있습니다. Pull Request를 한국어로 직역해보겠습니다. ‘당기다 요청’이 됩니다.<br><br/><br>다른 개발자의 코드를 fork햐여 개발한 후, 코드를 수정한 후 본인이 수정한 코드가 그 개발자의 repo에 반영되기를 바랄 경우 보통 ‘PR을 날린다’라는 표현을 사용하게 됩니다. </p><h2 id="Octokit-Library란"><a href="#Octokit-Library란" class="headerlink" title="Octokit Library란?"></a>Octokit Library란?</h2><p><a href="https://github.com/octokit/octokit.js">Octokit Library</a>는 github api를 쉽게 사용할 수 있도록 도와주는 라이브러리입니다. </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Pull-Request란&quot;&gt;&lt;a href=&quot;#Pull-Request란&quot; class=&quot;headerlink&quot; title=&quot;Pull Request란?&quot;&gt;&lt;/a&gt;Pull Request란?&lt;/h2&gt;&lt;p&gt;Github는 오픈소스 커뮤니티로 다른 개발</summary>
+      
+    
+    
+    
+    <category term="Github" scheme="https://dblepart99.github.io/categories/Github/"/>
+    
+    
+    <category term="Github, PR, &#39;Pull request&#39;, github api, Octokit, &#39;Octokit Library&#39;" scheme="https://dblepart99.github.io/tags/Github-PR-Pull-request-github-api-Octokit-Octokit-Library/"/>
     
   </entry>
   
