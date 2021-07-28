@@ -433,3 +433,5 @@ algolia:
     indexName: "hexo git blog"
     apiKey: "0b49c4ac03cfaffafcf3a79a50c2791f"
     chunkSize: 5000
+
+    #export HEXO_ALGOLIA_INDEXING_KEY=0b49c4ac03cfaffafcf3a79a50c2791f
