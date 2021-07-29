@@ -6,7 +6,7 @@
   <link href="https://dblepart99.github.io/atom.xml" rel="self"/>
   
   <link href="https://dblepart99.github.io/"/>
-  <updated>2021-07-28T02:43:53.952Z</updated>
+  <updated>2021-07-29T07:27:44.471Z</updated>
   <id>https://dblepart99.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ubuntu 20.04 Fcitx 한글 입력 설정</title>
+    <link href="https://dblepart99.github.io/2021/07/29/%EC%9A%B0%EB%B6%84%ED%88%AC-fcitx-%EC%84%A4%EC%A0%95/"/>
+    <id>https://dblepart99.github.io/2021/07/29/%EC%9A%B0%EB%B6%84%ED%88%AC-fcitx-%EC%84%A4%EC%A0%95/</id>
+    <published>2021-07-29T07:14:36.000Z</published>
+    <updated>2021-07-29T07:27:44.471Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="1-fcitx-설치"><a href="#1-fcitx-설치" class="headerlink" title="1. fcitx 설치"></a>1. fcitx 설치</h2><p>terminal을 실행 후, 아래의 명령어를 순차적으로 입력해줍니다.</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo apt-get update</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> sudo apt-get install fcitx-hangul</span></span><br><span class="line"><span class="meta">$</span><span class="bash"> sudo reboot</span></span><br></pre></td></tr></table></figure><br/> <h2 id="2-Language-Support-실행"><a href="#2-Language-Support-실행" class="headerlink" title="2. Language Support 실행"></a>2. Language Support 실행</h2><p>하단 Keyboard input method system -&gt; fcitx 변경합니다.</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">$</span><span class="bash"> sudo reboot</span></span><br></pre></td></tr></table></figure><br/><h2 id="3-fcitx-설정"><a href="#3-fcitx-설정" class="headerlink" title="3. fcitx 설정"></a>3. fcitx 설정</h2><ul><li>상단에 생긴 키보드 버튼을 클릭 -&gt;  configure</li><li>좌측 하단의 +버튼을 클릭</li><li>Only show Current Language 체크 해제 후, hangul 선택 후 OK</li><li>한/영 키 변경 <ul><li>상단의 global config 탭 클릭 -&gt; Trigger Input method -&gt; shif+space버튼 누르기</li><li>개인 취향에 맞춰 설정하시면 됩니다.</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;1-fcitx-설치&quot;&gt;&lt;a href=&quot;#1-fcitx-설치&quot; class=&quot;headerlink&quot; title=&quot;1. fcitx 설치&quot;&gt;&lt;/a&gt;1. fcitx 설치&lt;/h2&gt;&lt;p&gt;terminal을 실행 후, 아래의 명령어를 순차적으로 입력해줍니</summary>
+      
+    
+    
+    
+    <category term="Ubuntu" scheme="https://dblepart99.github.io/categories/Ubuntu/"/>
+    
+    
+    <category term="ubuntu" scheme="https://dblepart99.github.io/tags/ubuntu/"/>
+    
+    <category term="우분투 한글 설정" scheme="https://dblepart99.github.io/tags/%EC%9A%B0%EB%B6%84%ED%88%AC-%ED%95%9C%EA%B8%80-%EC%84%A4%EC%A0%95/"/>
+    
+  </entry>
   
   <entry>
     <title>Making Pull Request With Octokit Library</title>
