@@ -2,7 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dblepart99.github.io/2021/08/17/%EB%AA%A8%EA%B0%81%EC%BD%94-%ED%9A%8C%EA%B3%A0/</loc>
+    <loc>https://dblepart99.github.io/2021/08/17/%EB%AA%A8%EA%B0%81%EC%BD%94-%EC%86%8C%EA%B0%90/</loc>
+    
+    <lastmod>2021-08-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/2021/08/17/%EB%AA%A8%EA%B0%81%EC%BD%94-%EB%A6%AC%EB%B7%B0/</loc>
+    
+    <lastmod>2021-08-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/</loc>
     
     <lastmod>2021-08-17</lastmod>
     
@@ -45,13 +59,6 @@
   
   <url>
     <loc>https://dblepart99.github.io/2021/07/16/%EB%AA%A8%EA%B0%81%EC%BD%94-2%ED%9A%8C%EC%B0%A8/</loc>
-    
-    <lastmod>2021-08-17</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/</loc>
     
     <lastmod>2021-08-17</lastmod>
     
@@ -236,6 +243,20 @@
   
   <url>
     <loc>https://dblepart99.github.io/tags/Octokit-Library/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94-%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94-%EC%86%8C%EA%B0%90/</loc>
     <lastmod>2021-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
