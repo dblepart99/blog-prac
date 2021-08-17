@@ -6,7 +6,7 @@
   <link href="https://dblepart99.github.io/atom.xml" rel="self"/>
   
   <link href="https://dblepart99.github.io/"/>
-  <updated>2021-08-02T05:57:43.753Z</updated>
+  <updated>2021-08-17T05:27:32.174Z</updated>
   <id>https://dblepart99.github.io/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mocakgo End</title>
+    <link href="https://dblepart99.github.io/2021/08/17/mocakgo-end/"/>
+    <id>https://dblepart99.github.io/2021/08/17/mocakgo-end/</id>
+    <published>2021-08-17T05:27:32.000Z</published>
+    <updated>2021-08-17T05:27:32.174Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>모각코-6회차</title>
@@ -297,30 +310,6 @@
   </entry>
   
   <entry>
-    <title>백준 10808</title>
-    <link href="https://dblepart99.github.io/2021/07/18/%EB%B0%B1%EC%A4%80-10808/"/>
-    <id>https://dblepart99.github.io/2021/07/18/%EB%B0%B1%EC%A4%80-10808/</id>
-    <published>2021-07-17T16:06:58.000Z</published>
-    <updated>2021-07-17T16:14:46.722Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="백준-배열-문제-연습"><a href="#백준-배열-문제-연습" class="headerlink" title="백준 배열 문제 연습"></a>백준 배열 문제 연습</h2><p><a href="https://www.acmicpc.net/problem/10808">백준 10808 알파벳 갯수</a></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">26</span>] = &#123;<span class="number">0</span>,&#125;;</span><br><span class="line">    <span class="keyword">char</span> str[<span class="number">101</span>];</span><br><span class="line">    </span><br><span class="line">    cin &gt;&gt; str;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(str[i]!=<span class="string">&#x27;\0&#x27;</span>)&#123;</span><br><span class="line">        arr[str[i]-<span class="string">&#x27;a&#x27;</span>]++;</span><br><span class="line">        i++;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;<span class="built_in"><span class="keyword">sizeof</span></span>(arr)/<span class="built_in"><span class="keyword">sizeof</span></span>(<span class="keyword">int</span>); i++)&#123;</span><br><span class="line">        cout &lt;&lt; arr[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>입력받은 문자열의 알파벳 개수를 세는 문제입니다. 알파벳의 전체 갯수인 길이 26인 배열을 생성한 후, 문자열에 있는 알파벳의 순서와 같은 인덱스의 배열을 늘려가면서 알파벳의 갯수를 셉니다.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;백준-배열-문제-연습&quot;&gt;&lt;a href=&quot;#백준-배열-문제-연습&quot; class=&quot;headerlink&quot; title=&quot;백준 배열 문제 연습&quot;&gt;&lt;/a&gt;백준 배열 문제 연습&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://www.acmicpc.net/p</summary>
-      
-    
-    
-    
-    <category term="알고리즘" scheme="https://dblepart99.github.io/categories/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
-    
-    
-    <category term="알고리즘, &#39;백준 10808&#39;, 배열" scheme="https://dblepart99.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%B0%B1%EC%A4%80-10808-%EB%B0%B0%EC%97%B4/"/>
-    
-  </entry>
-  
-  <entry>
     <title>배열이란?</title>
     <link href="https://dblepart99.github.io/2021/07/17/%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%9E%80/"/>
     <id>https://dblepart99.github.io/2021/07/17/%EB%B0%B0%EC%97%B4%EC%9D%B4%EB%9E%80/</id>
@@ -376,16 +365,15 @@
     <link href="https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/"/>
     <id>https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/</id>
     <published>2021-07-15T10:32:13.000Z</published>
-    <updated>2021-08-02T05:57:29.491Z</updated>
+    <updated>2021-08-17T06:24:27.574Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="모각코-1회차-계획"><a href="#모각코-1회차-계획" class="headerlink" title="모각코 1회차 계획"></a>모각코 1회차 계획</h1><blockquote><p>html과 js기본 개념 학습 </p></blockquote><h1 id="모각코-1회차-결과"><a href="#모각코-1회차-결과" class="headerlink" title="모각코 1회차 결과"></a>모각코 1회차 결과</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="모각코-1회차-계획"><a href="#모각코-1회차-계획" class="headerlink" title="모각코 1회차 계획"></a>모각코 1회차 계획</h1><blockquote><p><a href="https://www.acmicpc.net/problem/10808">백준 10808 알파벳 갯수</a> 문제 풀기</p></blockquote><h1 id="모각코-1회차-결과"><a href="#모각코-1회차-결과" class="headerlink" title="모각코 1회차 결과"></a>모각코 1회차 결과</h1><h2 id="백준-배열-문제-연습"><a href="#백준-배열-문제-연습" class="headerlink" title="백준 배열 문제 연습"></a>백준 배열 문제 연습</h2><p><a href="https://www.acmicpc.net/problem/10808">백준 10808 알파벳 갯수</a></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">26</span>] = &#123;<span class="number">0</span>,&#125;;</span><br><span class="line">    <span class="keyword">char</span> str[<span class="number">101</span>];</span><br><span class="line"></span><br><span class="line">    cin &gt;&gt; str;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(str[i]!=<span class="string">&#x27;\0&#x27;</span>)&#123;</span><br><span class="line">        arr[str[i]-<span class="string">&#x27;a&#x27;</span>]++;</span><br><span class="line">        i++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;<span class="built_in"><span class="keyword">sizeof</span></span>(arr)/<span class="built_in"><span class="keyword">sizeof</span></span>(<span class="keyword">int</span>); i++)&#123;</span><br><span class="line">        cout &lt;&lt; arr[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>입력받은 문자열의 알파벳 개수를 세는 문제입니다. 알파벳의 전체 갯수인 길이 26인 배열을 생성한 후, 문자열에 있는 알파벳의 순서와 같은 인덱스의 배열을 늘려가면서 알파벳의 갯수를 셉니다.</p>]]></content>
     
     
       
       
     <summary type="html">&lt;h1 id=&quot;모각코-1회차-계획&quot;&gt;&lt;a href=&quot;#모각코-1회차-계획&quot; class=&quot;headerlink&quot; title=&quot;모각코 1회차 계획&quot;&gt;&lt;/a&gt;모각코 1회차 계획&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;html과 js기본 개념 학습 &lt;/p&gt;
-&lt;/b</summary>
+&lt;p&gt;&lt;a href=&quot;https://www.acmi</summary>
       
     
     
