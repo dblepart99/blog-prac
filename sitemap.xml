@@ -2,21 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dblepart99.github.io/2021/07/30/%EB%AA%A8%EA%B0%81%EC%BD%94-6%ED%9A%8C%EC%B0%A8/</loc>
+    <loc>https://dblepart99.github.io/2021/08/17/%EB%AA%A8%EA%B0%81%EC%BD%94-%ED%9A%8C%EA%B3%A0/</loc>
     
     <lastmod>2021-08-17</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dblepart99.github.io/2021/07/29/%EB%AA%A8%EA%B0%81%EC%BD%94-5%ED%9A%8C%EC%B0%A8/</loc>
+    <loc>https://dblepart99.github.io/2021/07/29/%EC%9A%B0%EB%B6%84%ED%88%AC-fcitx-%EC%84%A4%EC%A0%95/</loc>
     
     <lastmod>2021-08-17</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dblepart99.github.io/2021/07/16/%EB%AA%A8%EA%B0%81%EC%BD%94-2%ED%9A%8C%EC%B0%A8/</loc>
+    <loc>https://dblepart99.github.io/2021/07/18/%EB%B0%B1%EC%A4%80-10807/</loc>
+    
+    <lastmod>2021-08-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/2021/07/21/%EB%B0%B1%EC%A4%80-1475/</loc>
+    
+    <lastmod>2021-08-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/2021/07/23/%EB%AA%A8%EA%B0%81%EC%BD%94-4%ED%9A%8C%EC%B0%A8/</loc>
     
     <lastmod>2021-08-17</lastmod>
     
@@ -30,6 +44,13 @@
   </url>
   
   <url>
+    <loc>https://dblepart99.github.io/2021/07/16/%EB%AA%A8%EA%B0%81%EC%BD%94-2%ED%9A%8C%EC%B0%A8/</loc>
+    
+    <lastmod>2021-08-17</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/</loc>
     
     <lastmod>2021-08-17</lastmod>
@@ -37,44 +58,23 @@
   </url>
   
   <url>
-    <loc>https://dblepart99.github.io/2021/08/17/mocakgo-end/</loc>
+    <loc>https://dblepart99.github.io/2021/07/21/xcode-%EC%98%A4%EB%A5%98/</loc>
     
     <lastmod>2021-08-17</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dblepart99.github.io/2021/07/23/%EB%AA%A8%EA%B0%81%EC%BD%94-4%ED%9A%8C%EC%B0%A8/</loc>
+    <loc>https://dblepart99.github.io/2021/07/30/%EB%AA%A8%EA%B0%81%EC%BD%94-6%ED%9A%8C%EC%B0%A8/</loc>
     
-    <lastmod>2021-08-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dblepart99.github.io/2021/07/29/%EC%9A%B0%EB%B6%84%ED%88%AC-fcitx-%EC%84%A4%EC%A0%95/</loc>
-    
-    <lastmod>2021-07-29</lastmod>
+    <lastmod>2021-08-17</lastmod>
     
   </url>
   
   <url>
-    <loc>https://dblepart99.github.io/2021/07/21/%EB%B0%B1%EC%A4%80-1475/</loc>
+    <loc>https://dblepart99.github.io/2021/07/29/%EB%AA%A8%EA%B0%81%EC%BD%94-5%ED%9A%8C%EC%B0%A8/</loc>
     
-    <lastmod>2021-07-28</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dblepart99.github.io/2021/07/21/xcode-%EC%98%A4%EB%A5%98/</loc>
-    
-    <lastmod>2021-07-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://dblepart99.github.io/2021/07/18/%EB%B0%B1%EC%A4%80-10807/</loc>
-    
-    <lastmod>2021-07-17</lastmod>
+    <lastmod>2021-08-17</lastmod>
     
   </url>
   
@@ -109,7 +109,14 @@
 
   
   <url>
-    <loc>https://dblepart99.github.io/tags/xcode-xcode-%EC%98%A4%EB%A5%98/</loc>
+    <loc>https://dblepart99.github.io/tags/xcode/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/tags/xcode-%EC%98%A4%EB%A5%98/</loc>
     <lastmod>2021-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -235,7 +242,7 @@
   </url>
   
   <url>
-    <loc>https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EB%B0%B1%EC%A4%80-10807/</loc>
+    <loc>https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80-10807/</loc>
     <lastmod>2021-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -250,6 +257,13 @@
   
   <url>
     <loc>https://dblepart99.github.io/tags/%EC%9A%B0%EB%B6%84%ED%88%AC-%ED%95%9C%EA%B8%80-%EC%84%A4%EC%A0%95/</loc>
+    <lastmod>2021-08-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/tags/ubuntu-fcitx/</loc>
     <lastmod>2021-08-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
