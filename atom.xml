@@ -208,14 +208,15 @@
     <link href="https://dblepart99.github.io/2021/07/22/%EB%AA%A8%EA%B0%81%EC%BD%94-3%ED%9A%8C%EC%B0%A8/"/>
     <id>https://dblepart99.github.io/2021/07/22/%EB%AA%A8%EA%B0%81%EC%BD%94-3%ED%9A%8C%EC%B0%A8/</id>
     <published>2021-07-22T10:58:23.000Z</published>
-    <updated>2021-08-02T05:57:21.195Z</updated>
+    <updated>2021-08-17T06:29:37.360Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="모각코-3회차-계획"><a href="#모각코-3회차-계획" class="headerlink" title="모각코 3회차 계획"></a>모각코 3회차 계획</h1><h2 id="SQL-injection이란-무엇인가"><a href="#SQL-injection이란-무엇인가" class="headerlink" title="SQL injection이란 무엇인가?"></a>SQL injection이란 무엇인가?</h2><p><a href="https://webhacking.kr/old">SQL injection 실습 문제 old 18번</a></p><h1 id="모각코-3회차-결과"><a href="#모각코-3회차-결과" class="headerlink" title="모각코 3회차 결과"></a>모각코 3회차 결과</h1><h3 id="SQL-injection이란"><a href="#SQL-injection이란" class="headerlink" title="SQL injection이란?"></a>SQL injection이란?</h3>]]></content>
+    <content type="html"><![CDATA[<h1 id="모각코-3회차-계획"><a href="#모각코-3회차-계획" class="headerlink" title="모각코 3회차 계획"></a>모각코 3회차 계획</h1><blockquote><p><a href="https://www.acmicpc.net/problem/1475">백준 1475 방 번호</a> 풀기</p></blockquote><h1 id="모각코-3회차-결과"><a href="#모각코-3회차-결과" class="headerlink" title="모각코 3회차 결과"></a>모각코 3회차 결과</h1><p><a href="https://www.acmicpc.net/problem/1475">백준 1475 방 번호</a></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">10</span>];</span><br><span class="line">    <span class="built_in">fill</span>(arr, arr+<span class="number">10</span>, <span class="number">0</span>);</span><br><span class="line">    <span class="keyword">int</span> N;</span><br><span class="line">    cin &gt;&gt; N;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span>(N==<span class="number">0</span>)&#123;</span><br><span class="line">        cout &lt;&lt; <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span>(N&gt;<span class="number">0</span>)&#123;</span><br><span class="line">        <span class="keyword">int</span> tmp = N%<span class="number">10</span>;</span><br><span class="line">        N/=<span class="number">10</span>;</span><br><span class="line">        arr[tmp]++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    arr[<span class="number">6</span>] += arr[<span class="number">9</span>];</span><br><span class="line">    <span class="keyword">if</span>(arr[<span class="number">6</span>]%<span class="number">2</span>!=<span class="number">0</span>)&#123;</span><br><span class="line">        arr[<span class="number">6</span>]=arr[<span class="number">6</span>]/<span class="number">2</span>+<span class="number">1</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        arr[<span class="number">6</span>]/=<span class="number">2</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    arr[<span class="number">9</span>] = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> max = *<span class="built_in">max_element</span>(arr, arr+<span class="number">10</span>);</span><br><span class="line">    cout &lt;&lt; max;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>문제에 의하면 6과 9는 뒤집어서 이용할 수 있습니다. 그래서 모든 6과 9의 갯수를 더한 후, 2로 나누어 세트의 개수를 구할 수 있습니다. ex) 6669 =&gt; 6을 2장, 9를 2장으로 만들 수 있음.<br>6과 9의 갯수를 더한 후, 2로 나누어줍니다. 만약 나머지가 있다면 한 세트를 더 뜯어야 한다는 뜻이므로 1을 더해줍니다.</p><p><b>주의 사항</b></p><p>0번 부터 9번까지의 숫자들이므로, 0 한 장만 입력받는 경우도 고려를 해야합니다.</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;모각코-3회차-계획&quot;&gt;&lt;a href=&quot;#모각코-3회차-계획&quot; class=&quot;headerlink&quot; title=&quot;모각코 3회차 계획&quot;&gt;&lt;/a&gt;모각코 3회차 계획&lt;/h1&gt;&lt;h2 id=&quot;SQL-injection이란-무엇인가&quot;&gt;&lt;a href=&quot;#S</summary>
+    <summary type="html">&lt;h1 id=&quot;모각코-3회차-계획&quot;&gt;&lt;a href=&quot;#모각코-3회차-계획&quot; class=&quot;headerlink&quot; title=&quot;모각코 3회차 계획&quot;&gt;&lt;/a&gt;모각코 3회차 계획&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.acmi</summary>
       
     
     
@@ -226,6 +227,12 @@
     <category term="모각코" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94/"/>
     
     <category term="모여서 각자 코딩" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EC%97%AC%EC%84%9C-%EA%B0%81%EC%9E%90-%EC%BD%94%EB%94%A9/"/>
+    
+    <category term="백준" scheme="https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80/"/>
+    
+    <category term="알고리즘" scheme="https://dblepart99.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
+    
+    <category term="백준 1475" scheme="https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80-1475/"/>
     
   </entry>
   
@@ -361,11 +368,11 @@
   </entry>
   
   <entry>
-    <title>모각코 1회차 [계획]</title>
+    <title>모각코 1회차</title>
     <link href="https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/"/>
     <id>https://dblepart99.github.io/2021/07/15/%EB%AA%A8%EA%B0%81%EC%BD%94-1%ED%9A%8C%EC%B0%A8/</id>
     <published>2021-07-15T10:32:13.000Z</published>
-    <updated>2021-08-17T06:24:27.574Z</updated>
+    <updated>2021-08-17T06:27:03.848Z</updated>
     
     <content type="html"><![CDATA[<h1 id="모각코-1회차-계획"><a href="#모각코-1회차-계획" class="headerlink" title="모각코 1회차 계획"></a>모각코 1회차 계획</h1><blockquote><p><a href="https://www.acmicpc.net/problem/10808">백준 10808 알파벳 갯수</a> 문제 풀기</p></blockquote><h1 id="모각코-1회차-결과"><a href="#모각코-1회차-결과" class="headerlink" title="모각코 1회차 결과"></a>모각코 1회차 결과</h1><h2 id="백준-배열-문제-연습"><a href="#백준-배열-문제-연습" class="headerlink" title="백준 배열 문제 연습"></a>백준 배열 문제 연습</h2><p><a href="https://www.acmicpc.net/problem/10808">백준 10808 알파벳 갯수</a></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> arr[<span class="number">26</span>] = &#123;<span class="number">0</span>,&#125;;</span><br><span class="line">    <span class="keyword">char</span> str[<span class="number">101</span>];</span><br><span class="line"></span><br><span class="line">    cin &gt;&gt; str;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(str[i]!=<span class="string">&#x27;\0&#x27;</span>)&#123;</span><br><span class="line">        arr[str[i]-<span class="string">&#x27;a&#x27;</span>]++;</span><br><span class="line">        i++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt;<span class="built_in"><span class="keyword">sizeof</span></span>(arr)/<span class="built_in"><span class="keyword">sizeof</span></span>(<span class="keyword">int</span>); i++)&#123;</span><br><span class="line">        cout &lt;&lt; arr[i] &lt;&lt; <span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>입력받은 문자열의 알파벳 개수를 세는 문제입니다. 알파벳의 전체 갯수인 길이 26인 배열을 생성한 후, 문자열에 있는 알파벳의 순서와 같은 인덱스의 배열을 늘려가면서 알파벳의 갯수를 셉니다.</p>]]></content>
     
@@ -384,6 +391,14 @@
     <category term="모각코" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94/"/>
     
     <category term="모여서 각자 코딩" scheme="https://dblepart99.github.io/tags/%EB%AA%A8%EC%97%AC%EC%84%9C-%EA%B0%81%EC%9E%90-%EC%BD%94%EB%94%A9/"/>
+    
+    <category term="백준" scheme="https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80/"/>
+    
+    <category term="백준 10808" scheme="https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80-10808/"/>
+    
+    <category term="백준 알파벳 갯수" scheme="https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80-%EC%95%8C%ED%8C%8C%EB%B2%B3-%EA%B0%AF%EC%88%98/"/>
+    
+    <category term="boj 10808 cpp" scheme="https://dblepart99.github.io/tags/boj-10808-cpp/"/>
     
   </entry>
   
