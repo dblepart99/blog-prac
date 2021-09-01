@@ -2,7 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://dblepart99.github.io/2021/09/01/%EC%A0%95%EB%A0%AC/</loc>
+    <loc>https://dblepart99.github.io/2021/09/01/Sort/</loc>
+    
+    <lastmod>2021-09-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/2021/09/01/Untitled/</loc>
     
     <lastmod>2021-09-01</lastmod>
     
@@ -11,7 +18,7 @@
   <url>
     <loc>https://dblepart99.github.io/about/index.html</loc>
     
-    <lastmod>2021-08-17</lastmod>
+    <lastmod>2021-08-23</lastmod>
     
   </url>
   
@@ -123,6 +130,27 @@
 
   
   <url>
+    <loc>https://dblepart99.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
+    <lastmod>2021-09-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/tags/%EC%A0%95%EB%A0%AC/</loc>
+    <lastmod>2021-09-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/tags/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC/</loc>
+    <lastmod>2021-09-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://dblepart99.github.io/tags/xcode/</loc>
     <lastmod>2021-09-01</lastmod>
     <changefreq>daily</changefreq>
@@ -173,13 +201,6 @@
   
   <url>
     <loc>https://dblepart99.github.io/tags/boj-10808-cpp/</loc>
-    <lastmod>2021-09-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://dblepart99.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
     <lastmod>2021-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -297,31 +318,17 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://dblepart99.github.io/tags/%EC%A0%95%EB%A0%AC/</loc>
-    <lastmod>2021-09-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://dblepart99.github.io/tags/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC/</loc>
-    <lastmod>2021-09-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   
   <url>
-    <loc>https://dblepart99.github.io/categories/%EB%AA%A8%EA%B0%81%EC%BD%94/</loc>
+    <loc>https://dblepart99.github.io/categories/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
     <lastmod>2021-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://dblepart99.github.io/categories/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</loc>
+    <loc>https://dblepart99.github.io/categories/%EB%AA%A8%EA%B0%81%EC%BD%94/</loc>
     <lastmod>2021-09-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
