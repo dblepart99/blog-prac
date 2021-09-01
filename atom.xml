@@ -6,7 +6,7 @@
   <link href="https://dblepart99.github.io/atom.xml" rel="self"/>
   
   <link href="https://dblepart99.github.io/"/>
-  <updated>2021-08-17T07:20:58.796Z</updated>
+  <updated>2021-09-01T09:10:59.443Z</updated>
   <id>https://dblepart99.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>정렬</title>
+    <link href="https://dblepart99.github.io/2021/09/01/%EC%A0%95%EB%A0%AC/"/>
+    <id>https://dblepart99.github.io/2021/09/01/%EC%A0%95%EB%A0%AC/</id>
+    <published>2021-09-01T07:37:47.000Z</published>
+    <updated>2021-09-01T09:10:59.443Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Selection-Sort"><a href="#Selection-Sort" class="headerlink" title="Selection Sort"></a>Selection Sort</h2><p>As you can see the word “Selection”. This algorithm always chooses the most minimum element in the array repeatedly from unsorted part and swap with the first element of unsorted part.</p><p>이름에서 볼 수 있듯 “선택”하는 정렬입니다. 이 알고리즘은 항상 배열이 정렬되지 않은 부분에서 최소의 원소를 정렬되지 않은 부분의 맨 앞으로 가져와 정렬합니다.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">arr = [10, 20, 3, 7, 5]</span><br><span class="line">설명을 위해 &quot;|&quot;를 기준으로 구분하겠습니다. unsorted part|sorted part</span><br><span class="line">=&gt; | 10 20 3 7 5</span><br><span class="line">=&gt; 3 | 10 20 7 5</span><br><span class="line">=&gt; 3 5 | 10 20 7</span><br><span class="line">=&gt; 3 5 7 | 10 20</span><br><span class="line">=&gt; 3 5 7 10 | 20</span><br><span class="line">=&gt; 3 5 7 10 20</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">def selectsort(array):</span><br><span class="line">    for i in range(len(array)):</span><br><span class="line">        min_idx = i  #index of the minimum value</span><br><span class="line">        for j in range(i + 1, len(array)):</span><br><span class="line">            if array[min_idx] &gt; array[j]:</span><br><span class="line">                min_idx = j</span><br><span class="line">        array[i], array[min_idx] = array[min_idx], array[i]</span><br><span class="line"></span><br><span class="line">    return array</span><br></pre></td></tr></table></figure><p>선택 정렬은 N-1번 만큼 가장 작은수를 찾아서 맨 앞으로 보내야합니다. (N번이 아닌 이유는 선택받지 못한 가장 마지막 원소는 가장 큰 원소이기 때문입니다.) 시간복잡도로 따지면 반복문이 이중 중첩이므로 O(N^2)입니다.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Selection-Sort&quot;&gt;&lt;a href=&quot;#Selection-Sort&quot; class=&quot;headerlink&quot; title=&quot;Selection Sort&quot;&gt;&lt;/a&gt;Selection Sort&lt;/h2&gt;&lt;p&gt;As you can see the wor</summary>
+      
+    
+    
+    
+    <category term="알고리즘" scheme="https://dblepart99.github.io/categories/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
+    
+    
+    <category term="알고리즘" scheme="https://dblepart99.github.io/tags/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/"/>
+    
+    <category term="정렬" scheme="https://dblepart99.github.io/tags/%EC%A0%95%EB%A0%AC/"/>
+    
+    <category term="선택정렬" scheme="https://dblepart99.github.io/tags/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC/"/>
+    
+  </entry>
   
   <entry>
     <title>모각코 - 소감</title>
