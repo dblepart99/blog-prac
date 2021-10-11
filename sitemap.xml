@@ -158,20 +158,6 @@
   </url>
   
   <url>
-    <loc>https://dblepart99.github.io/tags/xcode/</loc>
-    <lastmod>2021-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://dblepart99.github.io/tags/xcode-%EC%98%A4%EB%A5%98/</loc>
-    <lastmod>2021-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://dblepart99.github.io/tags/%EB%AA%A8%EC%97%AC%EC%84%9C-%EA%B0%81%EC%9E%90-%EC%BD%94%EB%94%A9/</loc>
     <lastmod>2021-10-11</lastmod>
     <changefreq>daily</changefreq>
@@ -228,28 +214,21 @@
   </url>
   
   <url>
+    <loc>https://dblepart99.github.io/tags/xcode/</loc>
+    <lastmod>2021-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/tags/xcode-%EC%98%A4%EB%A5%98/</loc>
+    <lastmod>2021-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80-1475/</loc>
-    <lastmod>2021-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94-%ED%9A%8C%EA%B3%A0/</loc>
-    <lastmod>2021-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94-%EC%86%8C%EA%B0%90/</loc>
-    <lastmod>2021-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80-10807/</loc>
     <lastmod>2021-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -292,6 +271,27 @@
   
   <url>
     <loc>https://dblepart99.github.io/tags/Octokit-Library/</loc>
+    <lastmod>2021-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94-%ED%9A%8C%EA%B3%A0/</loc>
+    <lastmod>2021-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/tags/%EB%AA%A8%EA%B0%81%EC%BD%94-%EC%86%8C%EA%B0%90/</loc>
+    <lastmod>2021-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://dblepart99.github.io/tags/%EB%B0%B1%EC%A4%80-10807/</loc>
     <lastmod>2021-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
