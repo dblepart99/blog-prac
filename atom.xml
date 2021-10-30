@@ -6,7 +6,7 @@
   <link href="https://dblepart99.github.io/atom.xml" rel="self"/>
   
   <link href="https://dblepart99.github.io/"/>
-  <updated>2021-10-11T10:16:24.322Z</updated>
+  <updated>2021-10-30T13:05:12.864Z</updated>
   <id>https://dblepart99.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2021 도커 실습 특강 1일차</title>
+    <link href="https://dblepart99.github.io/2021/10/30/dockerclass/"/>
+    <id>https://dblepart99.github.io/2021/10/30/dockerclass/</id>
+    <published>2021-10-30T06:52:46.000Z</published>
+    <updated>2021-10-30T13:05:12.864Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Docker-실습-특강-1일차"><a href="#Docker-실습-특강-1일차" class="headerlink" title="Docker 실습 특강 1일차"></a>Docker 실습 특강 1일차</h1><h2 id="도커의-특징"><a href="#도커의-특징" class="headerlink" title="도커의 특징"></a>도커의 특징</h2><ul><li>가볍다</li><li>이미지 공유화(DockerHub)<ul><li>구글, 오라클 등 SW 배포방법으로 채택</li><li>텐서플로우, 오라클/MySQL</li></ul></li><li>에코시스템<ul><li>도커 기반 활용기술의 활성화</li><li>도커 컴포즈, 쿠버네티스 등등..</li></ul></li></ul><h2 id="도커의-기술적-특징"><a href="#도커의-기술적-특징" class="headerlink" title="도커의 기술적 특징"></a>도커의 기술적 특징</h2><ul><li>Linux Containers(LXC)</li><li>Aufs의 사용</li><li>모든 컨테이너들이 동일 OS 커널 공유<ul><li>독립적으로 스케줄링이나 CPU/메모리/디스크를 가상화하지 않음</li></ul></li><li>리눅스에서만 사용가능<ul><li>LXC -&gt; Libcontainer -&gt; RunC(표준)을 사용한 우분투 의존성을 개선</li><li>다른 OS에서 사용하려면 일반 하이퍼바이저가 있어야함</li></ul></li><li>Go언어로 작성됨</li><li>LXD의 특징<ul><li>기존의 LXC에 보안 개념이 추가</li></ul></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Docker-실습-특강-1일차&quot;&gt;&lt;a href=&quot;#Docker-실습-특강-1일차&quot; class=&quot;headerlink&quot; title=&quot;Docker 실습 특강 1일차&quot;&gt;&lt;/a&gt;Docker 실습 특강 1일차&lt;/h1&gt;&lt;h2 id=&quot;도커의-특징&quot;&gt;&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Pointer vs Reference Return Types</title>
