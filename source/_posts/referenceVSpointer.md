@@ -1,9 +1,7 @@
 ---
-title: [C/C++] Pointer VS Reference return types
+title: "Pointer VS Reference return types"
 date: 2021-10-11 19:00:57
 categories: C/C++
-tags:
-  - 모각코
 sitemap: true
 ---
 
